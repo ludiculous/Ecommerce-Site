@@ -2,8 +2,12 @@
   "name": "Gogrin",
   "version": "1.0.0",
   "description": "Eco-friendly Energy",
+  "engines": {
+    "node": "5.2.0"
+  },
   "main": "server.js",
   "scripts": {
+    "start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Preston",
@@ -20,6 +24,7 @@
     "express-flash": "0.0.2",
     "express-session": "^1.12.1",
     "faker": "^3.0.1",
+    "foreman": "1.4.1",
     "mongoosastic": "^3.6.0",
     "mongoose": "^4.3.4",
     "morgan": "^1.6.1",
